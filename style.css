@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: -150px 0 0 -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -47% 0 0 -47%;
+    background: rgb(0, 0, 0);
+}
+.red{
+    background: rgba(218, 25, 25, 0.637);
+    animation: rotate 10s  infinite linear;
+}
+.yellow{
+    background: rgb(255, 174, 0);
+    animation: rotate 10s  infinite linear;
+}
+.orange{
+    background: rgb(255, 115, 0);
+    animation: rotate 10s  infinite linear;
+}
+.pink{
+    background: rgb(255, 0, 128);
+    animation: rotate 10s  infinite linear;
+}
+.blue{
+    background: rgba(0, 0, 255, 0.418);
+    animation: rotate 10s  infinite linear;
+}
+.green{
+    background: rgb(0, 255, 76);
+    animation: rotate 10s  infinite linear;
+}
+.zink{
+    background: rgb(9, 84, 107);
+    animation: rotate 10s  infinite linear;
+}
+.violet{
+    background: rgb(255, 0, 170);
+    animation: rotate 10s infinite linear;
+}
+.copper{
+    background: rgb(255, 128, 0);
+    animation: rotate 10s  infinite linear;
+}
+.aqua{
+    background: rgb(0, 255, 255);
+    animation: rotate 10s  infinite linear;
+}
+.peach{
+    background: rgb(255, 128, 128);
+    animation: rotate 10s  infinite linear;
+}
+.purple{
+    background: rgb(94, 58, 255);
+    animation: rotate 10s  infinite linear;
+}
+.manganda{
+    background: rgb(255, 165, 76);
+    animation: rotate 10s  infinite linear;
+}
+.white{
+    background: rgb(255, 255, 255);
+    animation: rotate 10s  infinite linear;
+}
+.black{
+    background: rgb(110, 110, 110);
+    animation: rotate 10s  infinite linear;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
